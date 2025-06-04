@@ -6,9 +6,6 @@
             "",
             "import \"fmt\"",
             "",
-            "func main() {",
-            "\tfmt.Println(\"$1\")",
-            "}"
         ],
         "description": "快速创建 main 函数"
     },
