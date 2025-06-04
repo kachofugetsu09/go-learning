@@ -1,0 +1,35 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("=== Go 语言演示程序 ===")
+	fmt.Println("helloworld演示")
+	demoHelloWorld()
+	fmt.Println("变量演示")
+	demoVariables()
+	fmt.Println("var 与 := 详细对比演示")
+	demoVarVsShortDeclaration()
+	fmt.Println("常见错误和最佳实践")
+	demoCommonMistakes()
+	fmt.Println("循环演示")
+	demoFor()
+	fmt.Println("if-else演示")
+	demoIfElse()
+	fmt.Println("switch演示")
+	switchDemo()
+	fmt.Println("数组演示")
+	demoArrays()
+	fmt.Println("切片演示")
+	demoSlice()
+	fmt.Println("map演示")
+	demoMaps()
+	fmt.Println("Go Map vs Java HashMap 对比")
+	demoMapVsJava()
+	fmt.Println("Java 风格对比")
+	demoJavaStyleComparison()
+	fmt.Println("Go Map 常用模式")
+	demoCommonPatterns()
+	fmt.Println("Go 零值概念")
+	demoZeroValues()
+}

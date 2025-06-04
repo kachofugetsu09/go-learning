@@ -1,0 +1,61 @@
+{
+    // Go 格式化设置
+    "go.formatTool": "gofmt",
+    "go.formatFlags": [],
+    "go.lintTool": "golint",
+    "go.vetOnSave": "package",
+    "go.buildOnSave": "package",
+    "go.lintOnSave": "package",
+    "go.testOnSave": false,
+    "go.coverOnSave": false,
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
+    "go.gotoSymbol.includeGoroot": true,
+    
+    // 自动格式化设置 - 解决格式问题的关键！
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    
+    // Go 专用的格式化设置
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    
+    // 智能提示设置
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    
+    // 错误检查设置
+    "problems.decorations.enabled": true,
+    "go.toolsManagement.autoUpdate": true,
+    
+    // 括号和缩进设置
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.autoIndent": "full",
+    
+    // 文件保存设置
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    
+    // 终端设置
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
