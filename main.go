@@ -70,4 +70,12 @@ func main() {
 	fmt.Println("结构体演示")
 	personDemo()
 
+	fmt.Println("方法演示")
+	methodDemo()
+
+	fmt.Println("接口演示")
+	interfaceDemo()
+
+	fmt.Println("embeddingDemo 演示")
+	embeddingDemo()
 }
